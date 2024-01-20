@@ -4,9 +4,6 @@ function App() {
 
   return (
     <>
-    <div>
-    <ButtonComponent type={1}>Hello World</ButtonComponent>
-    </div>
     </>
   )
 }
