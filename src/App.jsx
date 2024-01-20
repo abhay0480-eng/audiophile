@@ -1,12 +1,12 @@
-import H1 from "./components/Typography/Heading/H1"
-
-
+import ButtonComponent from "./components/Buttons/ButtonComponent"
 
 function App() {
 
   return (
     <>
-      <H1>Hello World</H1>
+    <div>
+    <ButtonComponent type={1}>Hello World</ButtonComponent>
+    </div>
     </>
   )
 }
