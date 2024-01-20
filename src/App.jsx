@@ -1,11 +1,12 @@
+import H1 from "./components/Typography/Heading/H1"
 
-import './App.css'
+
 
 function App() {
 
   return (
     <>
-      <div>audiophile</div>
+      <H1>Hello World</H1>
     </>
   )
 }
