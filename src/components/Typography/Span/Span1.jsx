@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Span2 = ({children}) => {
+const Span1 = ({children}) => {
   return (
-    <span className='text-[13px] font-bold text-[#D87D4A] uppercase'>{children}</span>
+    <span className='text-[13px] font-bold py-2 text-[#D87D4A] uppercase'>{children}</span>
   )
 }
 
-export default Span2
+export default Span1

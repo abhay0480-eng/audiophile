@@ -1,9 +1,9 @@
 
 import React from 'react'
 
-const P = ({children}) => {
+const P = ({children,className}) => {
   return (
-    <p className='text-[15px] font-medium'>{children}</p>
+    <p className={`text-[15px] py-2 font-medium ${className}`}>{children}</p>
   )
 }
 
