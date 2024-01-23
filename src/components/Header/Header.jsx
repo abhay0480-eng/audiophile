@@ -12,7 +12,7 @@ const Header = () => {
 
     return (
         <div className='lg:w-full h-[97px] bg-black flex justify-center items-center'>
-            <div className='flex my-auto items-center justify-center border-b-[1px] border-white h-full w-4/5'>
+            <div className='flex my-auto items-center justify-center border-b-[1px] border-white border-opacity-20 h-[97px] w-4/5'>
                 <Link to="" className='mr-auto w-40'>
                     <img src='/assets/shared/desktop/logo.svg' alt='' className='' />
                 </Link>
