@@ -12,17 +12,21 @@ const Home = () => {
   return (
     <div className=''>
       <div className='bg-[#0E0E0E]  w-full '>
-        <div className='lg:w-4/5 w-full px-4 lg:px-0 grid grid-cols-2 justify-items-center mx-auto h-[700px] relative'>
-          <div className='flex justify-center items-center z-50'>
-            <div className='pr-10'>
+        <div className='lg:w-4/5 w-full px-4 lg:px-0 lg:grid lg:grid-cols-2 justify-items-center mx-auto h-[600px] lg:h-[700px] relative'>
+          <div className='h-full flex justify-center items-center'>
+          <div className='flex justify-center items-center z-50 text-center lg:text-left'>
+            <div className='lg:pr-10 mx-auto'>
             <Span2>NEW PRODUCT</Span2>
             <H1 className="!text-white ">XX99 Mark II Headphones</H1>
-            <P className="!text-white !text-opacity-75 pr-20">Experience natural, lifelike audio and exceptional build quality made for the passionate music enthusiast.</P>
+            <P className="!text-white !text-opacity-75 lg:pr-20">Experience natural, lifelike audio and exceptional build quality made for the passionate music enthusiast.</P>
             <ButtonComponent className="mt-10" type={1}>See Product</ButtonComponent>
             </div>
           </div>
+          </div>
+          
           <div className=''>
-            <img src="/assets/home/desktop/image-hero.jpg" alt="" className='object-cover w-[100%] h-full object-right absolute left-0 mix-blend-difference'/>
+            <img src="/assets/home/desktop/image-hero.jpg" alt="" className='object-cover w-[100%] h-full object-right absolute left-0 mix-blend-difference hidden lg:block'/>
+            <img src="/assets/home/mobile/image-header.jpg " alt="" className='object-fill top-0 block lg:hidden w-[100%] h-full object-center absolute left-0 mix-blend-difference'/>
           </div>
         </div>
       </div>
@@ -37,7 +41,7 @@ const Home = () => {
             <img src='/assets/home/desktop/pattern-circles.svg' alt='' className='absolute' />
             <div className='flex justify-center items-end z-20'>
               <img src='/assets/home/desktop/image-speaker-zx9.png' alt='' className='w-[410px] hidden lg:block' />
-              <img src='/assets/home/mobile/image-speaker-zx9.png' alt='' className='w-[410px] lg:hidden block' />
+              <img src='/assets/home/mobile/image-speaker-zx9.png' alt='' className='w-[150px] lg:hidden block' />
             </div>
             <div className='z-50 flex justify-center'>
               <div className=' mt-20'>
